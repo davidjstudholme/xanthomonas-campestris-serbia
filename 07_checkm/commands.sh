@@ -11,10 +11,8 @@ ln -s ncbi_dataset/data/GCA_*/GCA_*.fna .
 ls *.fna
 
 ### Run checkm
-conda activate checkm_env
+### Assumes that checkm is already installed
+# conda activate checkm_env
+checkm -h > checkm.version.txt
 checkm taxonomy_wf genus Xanthomonas . checkm_out
 checkm qa  checkm_out/Xanthomonas.ms checkm_out > checkm_qa.txt
-
-
-
-
