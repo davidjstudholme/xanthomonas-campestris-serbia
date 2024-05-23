@@ -7,6 +7,6 @@ chmod u+x datasets
 unzip xanthomonas_genome_assemblies.zip
 ln -s ncbi_dataset/data/GCA_*/GCA_*.fna .
 
-### Make symlinks to the genome sequence files such that symlinks have informative names and approproate extensions for input to PhaME:
+### Make symlinks to the genome sequence files such that symlinks have informative names and appropriate extensions for input to PhaME:
 perl rename_files.pl genomes.txt
 
