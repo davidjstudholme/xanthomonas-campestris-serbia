@@ -1,0 +1,8 @@
+[2024-05-17 06:44:54] INFO: CheckM v1.2.2
+[2024-05-17 06:44:54] INFO: checkm taxonomy_wf genus xanthomonas . .
+[2024-05-17 06:44:54] INFO: CheckM data: /data/djs217/checkm_data
+[2024-05-17 06:44:54] INFO: [CheckM - taxon_set] Generate taxonomic-specific marker set.
+[2024-05-17 06:44:57] ERROR: Unrecognized taxon: xanthomonas (in rank genus): 
+[2024-05-17 06:44:57] INFO: { Current stage: 0:00:03.702 || Total: 0:00:03.702 }
+[2024-05-17 06:44:57] INFO: [CheckM - analyze] Identifying marker genes in bins.
+[2024-05-17 06:44:59] INFO: Identifying marker genes in 74 bins with 1 threads:
