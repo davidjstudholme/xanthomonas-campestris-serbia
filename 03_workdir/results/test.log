@@ -1,0 +1,175 @@
+
+Running self-nucmer on /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/03_workdir/files/GCA_028750375_1_ASM2875037v1_genomic.fna
+[RUNNING:] nucmer --maxmatch --nosimplify --prefix=seq_seq1376098 /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/03_workdir/files/GCA_028750375_1_ASM2875037v1_genomic.fna /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/03_workdir/files/GCA_028750375_1_ASM2875037v1_genomic.fna 2>/dev/null
+[RUNNING:] show-coords -r -I 97 -L 75 -T seq_seq1376098.delta | awk '$1 != $3 || $2 != $4 && $8==$9 {print}' > seq_seq1376098.coords
+
+Repeat coords for all references found.
+Self-NUCmer complete
+==================================================================
+Aligning to the reference genome /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/03_workdir/files/GCA_028750375_1_ASM2875037v1_genomic.fna
+
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_GCA_028750375_1_ASM2875037v1_genomic
+
+NUCmer on all reference genomes complete.
+==================================================================
+
+runContigNUCmer.pl -r /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/03_workdir/files/GCA_028750375_1_ASM2875037v1_genomic.fna -q /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/03_workdir -d /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/03_workdir/results -l /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/03_workdir/contigs_list.txt -t 1 -y 2 2>>/data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/03_workdir/results/test.error >> /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/03_workdir/results/test.log
+
+
+Using given reference:  /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/03_workdir/files/GCA_028750375_1_ASM2875037v1_genomic.fna
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_XRE1_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc121_2_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc58_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc39_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc261_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc342_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc421_1_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc302_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc111_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc129_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_CN10_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc211_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc3212_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc362_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc164_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc160_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc115_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_CN01_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc175_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc16_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc221_1_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc117_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc3211_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_147_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc121_1_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc422_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc312_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_CFBP_1713_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc25_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc78_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc105_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_CFBP_4955_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_CFBP_5683_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc35_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc150_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc51_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc421_2_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc412_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc120_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc252_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc110_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc442_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc452_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc433_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_CFBP_4954_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_CFBP_6865R_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc153_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc20_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_CFBP_1124_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc52_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc7_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc43_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc142_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_XRE5_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc2010_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc521_1_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_11085_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc173_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_CFBP_5130_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc272_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc57_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc521_2_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc67_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc221_2_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc292_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc321_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc134_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_CFBP_1712_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xc163_contig
+Running nucmer on GCA_028750375_1_ASM2875037v1_genomic_Xcr_CFBP_5828R_contig
+NUCmer on all contig/draft genomes complete.
+
+Empty Gap Files: /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/03_workdir/results/gaps/GCA_028750375_1_ASM2875037v1_genomic_11085_contig.gaps
+
+buildSNPDB.pl -i /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/03_workdir/results -r /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/03_workdir/files/GCA_028750375_1_ASM2875037v1_genomic.fna -l /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/03_workdir/working_list.txt -p test -c 0 -g 0.1 2>>/data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/03_workdir/results/test.error >> /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/03_workdir/results/test.log
+
+Reading Gaps file.
+REPEATS covered 0.97524 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc521_1_contig covered 0.92821 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc150_contig covered 0.92788 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc321_contig covered 0.97865 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc412_contig covered 0.94815 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc117_contig covered 0.92816 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc442_contig covered 0.95894 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+CFBP_5683_contig covered 0.96404 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc52_contig covered 0.92798 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc421_1_contig covered 0.92810 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+CFBP_1712_contig covered 0.95925 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc25_contig covered 0.96078 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc57_contig covered 0.92709 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc422_contig covered 0.99323 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc3212_contig covered 0.97122 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc164_contig covered 0.92706 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+GCA_028750375_1_ASM2875037v1_genomic covered 0.99999 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc2010_contig covered 0.97795 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc433_contig covered 0.95988 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc51_contig covered 0.92794 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc252_contig covered 0.99245 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XRE5_contig covered 0.91012 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc261_contig covered 0.95926 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc35_contig covered 0.92682 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc163_contig covered 0.92778 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc7_contig covered 0.94729 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xcr_CFBP_5828R_contig covered 0.88120 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc173_contig covered 0.92788 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+CFBP_4955_contig covered 0.94961 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc221_2_contig covered 0.93384 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+147_contig covered 0.92499 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc121_2_contig covered 0.92730 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+CFBP_5130_contig covered 0.92291 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc111_contig covered 0.92778 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc211_contig covered 0.96673 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+CFBP_1713_contig covered 0.96704 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc175_contig covered 0.92770 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc312_contig covered 0.97773 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc134_contig covered 0.92772 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc105_contig covered 0.92820 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc342_contig covered 0.96940 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc292_contig covered 0.97758 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc153_contig covered 0.92735 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc58_contig covered 0.93297 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc67_contig covered 0.92604 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc521_2_contig covered 0.92758 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc115_contig covered 0.92787 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+CN10_contig covered 0.92317 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc129_contig covered 0.92789 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc302_contig covered 0.93515 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc362_contig covered 0.95873 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc421_2_contig covered 0.92802 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc43_contig covered 0.92724 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+CFBP_1124_contig covered 0.94316 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+CN01_contig covered 0.92637 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc16_contig covered 0.96737 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc221_1_contig covered 0.93478 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc142_contig covered 0.92795 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc121_1_contig covered 0.92720 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc3211_contig covered 0.97074 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc120_contig covered 0.92696 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc20_contig covered 0.95885 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+CFBP_4954_contig covered 0.95190 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XRE1_contig covered 0.91016 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc160_contig covered 0.92787 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc110_contig covered 0.92791 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc452_contig covered 0.95991 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc78_contig covered 0.92805 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc39_contig covered 0.92779 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xc272_contig covered 0.96337 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+CFBP_6865R_contig covered 0.97682 of the GCA_028750375_1_ASM2875037v1_genomic (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Printing Summary Statistics.
+Creating SNP alignment.
+Creating SNP stats file. 
+SNP alignment complete.
+Reconstructing phylogeny using FastTree
+export OMP_NUM_THREADS=1; FastTree -quiet -nt -gtr < /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/03_workdir/results/test_all_snp_alignment.fna > /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/03_workdir/results/test_all.fasttree 2>>/data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/03_workdir/results/test.error 
+
+Tree phylogeny complete.
