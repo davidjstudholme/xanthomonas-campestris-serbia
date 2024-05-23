@@ -1,0 +1,427 @@
+/data/djs217/anaconda3/envs/quast_env/bin/quast.py GCA_000589875.1_20120327_genomic.fna GCA_000589895.1_20120412_genomic.fna GCA_000589935.1_20120412_genomic.fna GCA_000589955.1_20120413_genomic.fna GCA_000589975.1_20120413_genomic.fna GCA_000589995.1_20120413_genomic.fna GCA_000590095.1_20121025_genomic.fna GCA_000590115.1_20121028_genomic.fna GCA_000590195.1_20121031_genomic.fna GCA_000590275.1_20120412_genomic.fna GCA_000590295.1_20120411_genomic.fna GCA_000590355.1_20120327_genomic.fna GCA_028750375.1_ASM2875037v1_genomic.fna GCA_030361545.1_ASM3036154v1_genomic.fna GCA_030361585.1_ASM3036158v1_genomic.fna GCA_030361605.1_ASM3036160v1_genomic.fna GCA_030361625.1_ASM3036162v1_genomic.fna GCA_030361645.1_ASM3036164v1_genomic.fna GCA_030361665.1_ASM3036166v1_genomic.fna GCA_030361675.1_ASM3036167v1_genomic.fna GCA_030361705.1_ASM3036170v1_genomic.fna GCA_030361725.1_ASM3036172v1_genomic.fna GCA_030361745.1_ASM3036174v1_genomic.fna GCA_030361765.1_ASM3036176v1_genomic.fna GCA_030361785.1_ASM3036178v1_genomic.fna GCA_030361805.1_ASM3036180v1_genomic.fna GCA_030361825.1_ASM3036182v1_genomic.fna GCA_030361845.1_ASM3036184v1_genomic.fna GCA_030361865.1_ASM3036186v1_genomic.fna GCA_030361885.1_ASM3036188v1_genomic.fna GCA_030361905.1_ASM3036190v1_genomic.fna GCA_030361925.1_ASM3036192v1_genomic.fna GCA_030361945.1_ASM3036194v1_genomic.fna GCA_030361965.1_ASM3036196v1_genomic.fna GCA_030361985.1_ASM3036198v1_genomic.fna GCA_030362005.1_ASM3036200v1_genomic.fna GCA_030362025.1_ASM3036202v1_genomic.fna GCA_030362045.1_ASM3036204v1_genomic.fna GCA_030362065.1_ASM3036206v1_genomic.fna GCA_030362085.1_ASM3036208v1_genomic.fna GCA_030362105.1_ASM3036210v1_genomic.fna GCA_030362125.1_ASM3036212v1_genomic.fna GCA_030362135.1_ASM3036213v1_genomic.fna GCA_030362155.1_ASM3036215v1_genomic.fna GCA_030362185.1_ASM3036218v1_genomic.fna GCA_030362205.1_ASM3036220v1_genomic.fna GCA_030362225.1_ASM3036222v1_genomic.fna GCA_030362235.1_ASM3036223v1_genomic.fna GCA_030362265.1_ASM3036226v1_genomic.fna GCA_030362285.1_ASM3036228v1_genomic.fna GCA_030362305.1_ASM3036230v1_genomic.fna GCA_030362315.1_ASM3036231v1_genomic.fna GCA_030362325.1_ASM3036232v1_genomic.fna GCA_030362335.1_ASM3036233v1_genomic.fna GCA_030362385.1_ASM3036238v1_genomic.fna GCA_030362405.1_ASM3036240v1_genomic.fna GCA_030362425.1_ASM3036242v1_genomic.fna GCA_030362435.1_ASM3036243v1_genomic.fna GCA_030362465.1_ASM3036246v1_genomic.fna GCA_030362485.1_ASM3036248v1_genomic.fna GCA_030362505.1_ASM3036250v1_genomic.fna GCA_030362525.1_ASM3036252v1_genomic.fna GCA_030362545.1_ASM3036254v1_genomic.fna GCA_030362565.1_ASM3036256v1_genomic.fna GCA_030362585.1_ASM3036258v1_genomic.fna GCA_030362595.1_ASM3036259v1_genomic.fna GCA_030362625.1_ASM3036262v1_genomic.fna GCA_030362645.1_ASM3036264v1_genomic.fna GCA_030362665.1_ASM3036266v1_genomic.fna GCA_030362685.1_ASM3036268v1_genomic.fna GCA_030362695.1_ASM3036269v1_genomic.fna GCA_030362725.1_ASM3036272v1_genomic.fna GCA_030362745.1_ASM3036274v1_genomic.fna GCA_030362765.1_ASM3036276v1_genomic.fna
+
+Version: 5.2.0
+
+System information:
+  OS: Linux-5.15.0-101-generic-x86_64-with-glibc2.35 (linux_64)
+  Python version: 3.10.13
+  CPUs number: 32
+
+Started: 2024-05-23 12:40:23
+
+Logging to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/quast.log
+NOTICE: Maximum number of threads is set to 8 (use --threads option to set it manually)
+
+CWD: /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast
+Main parameters: 
+  MODE: default, threads: 8, min contig length: 500, min alignment length: 65, min alignment IDY: 95.0, \
+  ambiguity: one, min local misassembly length: 200, min extensive misassembly length: 1000
+
+Contigs:
+  Pre-processing...
+  1  GCA_000589875.1_20120327_genomic.fna ==> GCA_000589875.1_20120327_genomic
+  2  GCA_000589895.1_20120412_genomic.fna ==> GCA_000589895.1_20120412_genomic
+  3  GCA_000589935.1_20120412_genomic.fna ==> GCA_000589935.1_20120412_genomic
+  4  GCA_000589955.1_20120413_genomic.fna ==> GCA_000589955.1_20120413_genomic
+  5  GCA_000589975.1_20120413_genomic.fna ==> GCA_000589975.1_20120413_genomic
+  6  GCA_000589995.1_20120413_genomic.fna ==> GCA_000589995.1_20120413_genomic
+  7  GCA_000590095.1_20121025_genomic.fna ==> GCA_000590095.1_20121025_genomic
+  8  GCA_000590115.1_20121028_genomic.fna ==> GCA_000590115.1_20121028_genomic
+  9  GCA_000590195.1_20121031_genomic.fna ==> GCA_000590195.1_20121031_genomic
+  10 GCA_000590275.1_20120412_genomic.fna ==> GCA_000590275.1_20120412_genomic
+  11 GCA_000590295.1_20120411_genomic.fna ==> GCA_000590295.1_20120411_genomic
+  12 GCA_000590355.1_20120327_genomic.fna ==> GCA_000590355.1_20120327_genomic
+  13 GCA_028750375.1_ASM2875037v1_genomic.fna ==> GCA_028750375.1_ASM2875037v1_genomic
+  14 GCA_030361545.1_ASM3036154v1_genomic.fna ==> GCA_030361545.1_ASM3036154v1_genomic
+  15 GCA_030361585.1_ASM3036158v1_genomic.fna ==> GCA_030361585.1_ASM3036158v1_genomic
+  16 GCA_030361605.1_ASM3036160v1_genomic.fna ==> GCA_030361605.1_ASM3036160v1_genomic
+  17 GCA_030361625.1_ASM3036162v1_genomic.fna ==> GCA_030361625.1_ASM3036162v1_genomic
+  18 GCA_030361645.1_ASM3036164v1_genomic.fna ==> GCA_030361645.1_ASM3036164v1_genomic
+  19 GCA_030361665.1_ASM3036166v1_genomic.fna ==> GCA_030361665.1_ASM3036166v1_genomic
+  20 GCA_030361675.1_ASM3036167v1_genomic.fna ==> GCA_030361675.1_ASM3036167v1_genomic
+  21 GCA_030361705.1_ASM3036170v1_genomic.fna ==> GCA_030361705.1_ASM3036170v1_genomic
+  22 GCA_030361725.1_ASM3036172v1_genomic.fna ==> GCA_030361725.1_ASM3036172v1_genomic
+  23 GCA_030361745.1_ASM3036174v1_genomic.fna ==> GCA_030361745.1_ASM3036174v1_genomic
+  24 GCA_030361765.1_ASM3036176v1_genomic.fna ==> GCA_030361765.1_ASM3036176v1_genomic
+  25 GCA_030361785.1_ASM3036178v1_genomic.fna ==> GCA_030361785.1_ASM3036178v1_genomic
+  26 GCA_030361805.1_ASM3036180v1_genomic.fna ==> GCA_030361805.1_ASM3036180v1_genomic
+  27 GCA_030361825.1_ASM3036182v1_genomic.fna ==> GCA_030361825.1_ASM3036182v1_genomic
+  28 GCA_030361845.1_ASM3036184v1_genomic.fna ==> GCA_030361845.1_ASM3036184v1_genomic
+  29 GCA_030361865.1_ASM3036186v1_genomic.fna ==> GCA_030361865.1_ASM3036186v1_genomic
+  30 GCA_030361885.1_ASM3036188v1_genomic.fna ==> GCA_030361885.1_ASM3036188v1_genomic
+  31 GCA_030361905.1_ASM3036190v1_genomic.fna ==> GCA_030361905.1_ASM3036190v1_genomic
+  32 GCA_030361925.1_ASM3036192v1_genomic.fna ==> GCA_030361925.1_ASM3036192v1_genomic
+  33 GCA_030361945.1_ASM3036194v1_genomic.fna ==> GCA_030361945.1_ASM3036194v1_genomic
+  34 GCA_030361965.1_ASM3036196v1_genomic.fna ==> GCA_030361965.1_ASM3036196v1_genomic
+  35 GCA_030361985.1_ASM3036198v1_genomic.fna ==> GCA_030361985.1_ASM3036198v1_genomic
+  36 GCA_030362005.1_ASM3036200v1_genomic.fna ==> GCA_030362005.1_ASM3036200v1_genomic
+  37 GCA_030362025.1_ASM3036202v1_genomic.fna ==> GCA_030362025.1_ASM3036202v1_genomic
+  38 GCA_030362045.1_ASM3036204v1_genomic.fna ==> GCA_030362045.1_ASM3036204v1_genomic
+  39 GCA_030362065.1_ASM3036206v1_genomic.fna ==> GCA_030362065.1_ASM3036206v1_genomic
+  40 GCA_030362085.1_ASM3036208v1_genomic.fna ==> GCA_030362085.1_ASM3036208v1_genomic
+  41 GCA_030362105.1_ASM3036210v1_genomic.fna ==> GCA_030362105.1_ASM3036210v1_genomic
+  42 GCA_030362125.1_ASM3036212v1_genomic.fna ==> GCA_030362125.1_ASM3036212v1_genomic
+  43 GCA_030362135.1_ASM3036213v1_genomic.fna ==> GCA_030362135.1_ASM3036213v1_genomic
+  44 GCA_030362155.1_ASM3036215v1_genomic.fna ==> GCA_030362155.1_ASM3036215v1_genomic
+  45 GCA_030362185.1_ASM3036218v1_genomic.fna ==> GCA_030362185.1_ASM3036218v1_genomic
+  46 GCA_030362205.1_ASM3036220v1_genomic.fna ==> GCA_030362205.1_ASM3036220v1_genomic
+  47 GCA_030362225.1_ASM3036222v1_genomic.fna ==> GCA_030362225.1_ASM3036222v1_genomic
+  48 GCA_030362235.1_ASM3036223v1_genomic.fna ==> GCA_030362235.1_ASM3036223v1_genomic
+  49 GCA_030362265.1_ASM3036226v1_genomic.fna ==> GCA_030362265.1_ASM3036226v1_genomic
+  50 GCA_030362285.1_ASM3036228v1_genomic.fna ==> GCA_030362285.1_ASM3036228v1_genomic
+  51 GCA_030362305.1_ASM3036230v1_genomic.fna ==> GCA_030362305.1_ASM3036230v1_genomic
+  52 GCA_030362315.1_ASM3036231v1_genomic.fna ==> GCA_030362315.1_ASM3036231v1_genomic
+  53 GCA_030362325.1_ASM3036232v1_genomic.fna ==> GCA_030362325.1_ASM3036232v1_genomic
+  54 GCA_030362335.1_ASM3036233v1_genomic.fna ==> GCA_030362335.1_ASM3036233v1_genomic
+  55 GCA_030362385.1_ASM3036238v1_genomic.fna ==> GCA_030362385.1_ASM3036238v1_genomic
+  56 GCA_030362405.1_ASM3036240v1_genomic.fna ==> GCA_030362405.1_ASM3036240v1_genomic
+  57 GCA_030362425.1_ASM3036242v1_genomic.fna ==> GCA_030362425.1_ASM3036242v1_genomic
+  58 GCA_030362435.1_ASM3036243v1_genomic.fna ==> GCA_030362435.1_ASM3036243v1_genomic
+  59 GCA_030362465.1_ASM3036246v1_genomic.fna ==> GCA_030362465.1_ASM3036246v1_genomic
+  60 GCA_030362485.1_ASM3036248v1_genomic.fna ==> GCA_030362485.1_ASM3036248v1_genomic
+  61 GCA_030362505.1_ASM3036250v1_genomic.fna ==> GCA_030362505.1_ASM3036250v1_genomic
+  62 GCA_030362525.1_ASM3036252v1_genomic.fna ==> GCA_030362525.1_ASM3036252v1_genomic
+  63 GCA_030362545.1_ASM3036254v1_genomic.fna ==> GCA_030362545.1_ASM3036254v1_genomic
+  64 GCA_030362565.1_ASM3036256v1_genomic.fna ==> GCA_030362565.1_ASM3036256v1_genomic
+  65 GCA_030362585.1_ASM3036258v1_genomic.fna ==> GCA_030362585.1_ASM3036258v1_genomic
+  66 GCA_030362595.1_ASM3036259v1_genomic.fna ==> GCA_030362595.1_ASM3036259v1_genomic
+  67 GCA_030362625.1_ASM3036262v1_genomic.fna ==> GCA_030362625.1_ASM3036262v1_genomic
+  68 GCA_030362645.1_ASM3036264v1_genomic.fna ==> GCA_030362645.1_ASM3036264v1_genomic
+  69 GCA_030362665.1_ASM3036266v1_genomic.fna ==> GCA_030362665.1_ASM3036266v1_genomic
+  70 GCA_030362685.1_ASM3036268v1_genomic.fna ==> GCA_030362685.1_ASM3036268v1_genomic
+  71 GCA_030362695.1_ASM3036269v1_genomic.fna ==> GCA_030362695.1_ASM3036269v1_genomic
+  72 GCA_030362725.1_ASM3036272v1_genomic.fna ==> GCA_030362725.1_ASM3036272v1_genomic
+  73 GCA_030362745.1_ASM3036274v1_genomic.fna ==> GCA_030362745.1_ASM3036274v1_genomic
+  74 GCA_030362765.1_ASM3036276v1_genomic.fna ==> GCA_030362765.1_ASM3036276v1_genomic
+
+2024-05-23 12:40:25
+Running Basic statistics processor...
+  Contig files: 
+    1  GCA_000589875.1_20120327_genomic
+    2  GCA_000589895.1_20120412_genomic
+    3  GCA_000589935.1_20120412_genomic
+    4  GCA_000589955.1_20120413_genomic
+    5  GCA_000589975.1_20120413_genomic
+    6  GCA_000589995.1_20120413_genomic
+    7  GCA_000590095.1_20121025_genomic
+    8  GCA_000590115.1_20121028_genomic
+    9  GCA_000590195.1_20121031_genomic
+    10 GCA_000590275.1_20120412_genomic
+    11 GCA_000590295.1_20120411_genomic
+    12 GCA_000590355.1_20120327_genomic
+    13 GCA_028750375.1_ASM2875037v1_genomic
+    14 GCA_030361545.1_ASM3036154v1_genomic
+    15 GCA_030361585.1_ASM3036158v1_genomic
+    16 GCA_030361605.1_ASM3036160v1_genomic
+    17 GCA_030361625.1_ASM3036162v1_genomic
+    18 GCA_030361645.1_ASM3036164v1_genomic
+    19 GCA_030361665.1_ASM3036166v1_genomic
+    20 GCA_030361675.1_ASM3036167v1_genomic
+    21 GCA_030361705.1_ASM3036170v1_genomic
+    22 GCA_030361725.1_ASM3036172v1_genomic
+    23 GCA_030361745.1_ASM3036174v1_genomic
+    24 GCA_030361765.1_ASM3036176v1_genomic
+    25 GCA_030361785.1_ASM3036178v1_genomic
+    26 GCA_030361805.1_ASM3036180v1_genomic
+    27 GCA_030361825.1_ASM3036182v1_genomic
+    28 GCA_030361845.1_ASM3036184v1_genomic
+    29 GCA_030361865.1_ASM3036186v1_genomic
+    30 GCA_030361885.1_ASM3036188v1_genomic
+    31 GCA_030361905.1_ASM3036190v1_genomic
+    32 GCA_030361925.1_ASM3036192v1_genomic
+    33 GCA_030361945.1_ASM3036194v1_genomic
+    34 GCA_030361965.1_ASM3036196v1_genomic
+    35 GCA_030361985.1_ASM3036198v1_genomic
+    36 GCA_030362005.1_ASM3036200v1_genomic
+    37 GCA_030362025.1_ASM3036202v1_genomic
+    38 GCA_030362045.1_ASM3036204v1_genomic
+    39 GCA_030362065.1_ASM3036206v1_genomic
+    40 GCA_030362085.1_ASM3036208v1_genomic
+    41 GCA_030362105.1_ASM3036210v1_genomic
+    42 GCA_030362125.1_ASM3036212v1_genomic
+    43 GCA_030362135.1_ASM3036213v1_genomic
+    44 GCA_030362155.1_ASM3036215v1_genomic
+    45 GCA_030362185.1_ASM3036218v1_genomic
+    46 GCA_030362205.1_ASM3036220v1_genomic
+    47 GCA_030362225.1_ASM3036222v1_genomic
+    48 GCA_030362235.1_ASM3036223v1_genomic
+    49 GCA_030362265.1_ASM3036226v1_genomic
+    50 GCA_030362285.1_ASM3036228v1_genomic
+    51 GCA_030362305.1_ASM3036230v1_genomic
+    52 GCA_030362315.1_ASM3036231v1_genomic
+    53 GCA_030362325.1_ASM3036232v1_genomic
+    54 GCA_030362335.1_ASM3036233v1_genomic
+    55 GCA_030362385.1_ASM3036238v1_genomic
+    56 GCA_030362405.1_ASM3036240v1_genomic
+    57 GCA_030362425.1_ASM3036242v1_genomic
+    58 GCA_030362435.1_ASM3036243v1_genomic
+    59 GCA_030362465.1_ASM3036246v1_genomic
+    60 GCA_030362485.1_ASM3036248v1_genomic
+    61 GCA_030362505.1_ASM3036250v1_genomic
+    62 GCA_030362525.1_ASM3036252v1_genomic
+    63 GCA_030362545.1_ASM3036254v1_genomic
+    64 GCA_030362565.1_ASM3036256v1_genomic
+    65 GCA_030362585.1_ASM3036258v1_genomic
+    66 GCA_030362595.1_ASM3036259v1_genomic
+    67 GCA_030362625.1_ASM3036262v1_genomic
+    68 GCA_030362645.1_ASM3036264v1_genomic
+    69 GCA_030362665.1_ASM3036266v1_genomic
+    70 GCA_030362685.1_ASM3036268v1_genomic
+    71 GCA_030362695.1_ASM3036269v1_genomic
+    72 GCA_030362725.1_ASM3036272v1_genomic
+    73 GCA_030362745.1_ASM3036274v1_genomic
+    74 GCA_030362765.1_ASM3036276v1_genomic
+  Calculating N50 and L50...
+    1  GCA_000589875.1_20120327_genomic, N50 = 5050003, L50 = 1, auN = 4936751.6, Total length = 5166940, GC % = 64.94, # N's per 100 kbp =  47.67
+    2  GCA_000589895.1_20120412_genomic, N50 = 4998410, L50 = 1, auN = 4980944.9, Total length = 5015961, GC % = 65.13, # N's per 100 kbp =  255.31
+    3  GCA_000589935.1_20120412_genomic, N50 = 5008990, L50 = 1, auN = 4945222.6, Total length = 5073734, GC % = 65.08, # N's per 100 kbp =  279.99
+    4  GCA_000589955.1_20120413_genomic, N50 = 4973409, L50 = 1, auN = 4820067.7, Total length = 5136167, GC % = 64.99, # N's per 100 kbp =  270.84
+    5  GCA_000589975.1_20120413_genomic, N50 = 5052401, L50 = 1, auN = 5048268.3, Total length = 5056538, GC % = 65.05, # N's per 100 kbp =  249.32
+    6  GCA_000589995.1_20120413_genomic, N50 = 5012730, L50 = 1, auN = 4994982.0, Total length = 5030566, GC % = 65.12, # N's per 100 kbp =  364.09
+    7  GCA_000590095.1_20121025_genomic, N50 = 5023477, L50 = 1, auN = 5005434.5, Total length = 5041610, GC % = 65.10, # N's per 100 kbp =  174.67
+    8  GCA_000590115.1_20121028_genomic, N50 = 5025391, L50 = 1, auN = 5019892.4, Total length = 5030897, GC % = 65.09, # N's per 100 kbp =  141.25
+    9  GCA_000590195.1_20121031_genomic, N50 = 4908835, L50 = 1, auN = 4859583.7, Total length = 4958955, GC % = 65.17, # N's per 100 kbp =  199.72
+    10 GCA_000590275.1_20120412_genomic, N50 = 4950512, L50 = 1, auN = 4903813.3, Total length = 4997962, GC % = 65.14, # N's per 100 kbp =  200.28
+    11 GCA_000590295.1_20120411_genomic, N50 = 5045960, L50 = 1, auN = 5031150.6, Total length = 5060825, GC % = 65.04, # N's per 100 kbp =  268.93
+    12 GCA_000590355.1_20120327_genomic, N50 = 4911500, L50 = 1, auN = 4910915.1, Total length = 4912085, GC % = 65.36, # N's per 100 kbp =  21.15
+    13 GCA_028750375.1_ASM2875037v1_genomic, N50 = 5095350, L50 = 1, auN = 5040929.3, Total length = 5150972, GC % = 65.02, # N's per 100 kbp =  0.00
+    14 GCA_030361545.1_ASM3036154v1_genomic, N50 = 135420, L50 = 12, auN = 152422.1, Total length = 4863708, GC % = 65.25, # N's per 100 kbp =  0.00
+    15 GCA_030361585.1_ASM3036158v1_genomic, N50 = 147813, L50 = 12, auN = 165242.0, Total length = 5050737, GC % = 65.04, # N's per 100 kbp =  0.00
+    16 GCA_030361605.1_ASM3036160v1_genomic, N50 = 161756, L50 = 11, auN = 160495.9, Total length = 4863324, GC % = 65.25, # N's per 100 kbp =  0.00
+    17 GCA_030361625.1_ASM3036162v1_genomic, N50 = 156278, L50 = 10, auN = 197287.2, Total length = 5044698, GC % = 65.04, # N's per 100 kbp =  0.00
+    18 GCA_030361645.1_ASM3036164v1_genomic, N50 = 176085, L50 = 12, auN = 171731.0, Total length = 5236580, GC % = 65.06, # N's per 100 kbp =  0.00
+    19 GCA_030361665.1_ASM3036166v1_genomic, N50 = 156278, L50 = 10, auN = 186713.2, Total length = 5053842, GC % = 65.03, # N's per 100 kbp =  0.00
+    20 GCA_030361675.1_ASM3036167v1_genomic, N50 = 162832, L50 = 11, auN = 186524.9, Total length = 5047495, GC % = 65.04, # N's per 100 kbp =  0.00
+    21 GCA_030361705.1_ASM3036170v1_genomic, N50 = 168468, L50 = 11, auN = 177401.8, Total length = 5050424, GC % = 65.04, # N's per 100 kbp =  0.00
+    22 GCA_030361725.1_ASM3036172v1_genomic, N50 = 156278, L50 = 12, auN = 169392.2, Total length = 5045602, GC % = 65.04, # N's per 100 kbp =  0.00
+    23 GCA_030361745.1_ASM3036174v1_genomic, N50 = 189874, L50 = 11, auN = 187800.5, Total length = 5044697, GC % = 65.04, # N's per 100 kbp =  0.00
+    24 GCA_030361765.1_ASM3036176v1_genomic, N50 = 153818, L50 = 13, auN = 149452.7, Total length = 5052970, GC % = 65.03, # N's per 100 kbp =  0.00
+    25 GCA_030361785.1_ASM3036178v1_genomic, N50 = 156278, L50 = 11, auN = 181370.2, Total length = 5051874, GC % = 65.04, # N's per 100 kbp =  0.00
+    26 GCA_030361805.1_ASM3036180v1_genomic, N50 = 145840, L50 = 13, auN = 154645.6, Total length = 5051718, GC % = 65.04, # N's per 100 kbp =  0.00
+    27 GCA_030361825.1_ASM3036182v1_genomic, N50 = 155706, L50 = 12, auN = 164419.6, Total length = 5053663, GC % = 65.03, # N's per 100 kbp =  0.00
+    28 GCA_030361845.1_ASM3036184v1_genomic, N50 = 155850, L50 = 13, auN = 160770.5, Total length = 5049115, GC % = 65.04, # N's per 100 kbp =  0.00
+    29 GCA_030361865.1_ASM3036186v1_genomic, N50 = 158597, L50 = 11, auN = 167918.1, Total length = 5009080, GC % = 65.08, # N's per 100 kbp =  0.00
+    30 GCA_030361885.1_ASM3036188v1_genomic, N50 = 162827, L50 = 12, auN = 167763.7, Total length = 5056777, GC % = 65.02, # N's per 100 kbp =  0.00
+    31 GCA_030361905.1_ASM3036190v1_genomic, N50 = 156278, L50 = 12, auN = 172586.4, Total length = 5050088, GC % = 65.04, # N's per 100 kbp =  0.00
+    32 GCA_030361925.1_ASM3036192v1_genomic, N50 = 155706, L50 = 12, auN = 165076.9, Total length = 5055283, GC % = 65.03, # N's per 100 kbp =  0.00
+    33 GCA_030361945.1_ASM3036194v1_genomic, N50 = 181545, L50 = 11, auN = 184746.1, Total length = 5045137, GC % = 65.04, # N's per 100 kbp =  0.00
+    34 GCA_030361965.1_ASM3036196v1_genomic, N50 = 210038, L50 = 9, auN = 228320.4, Total length = 5116397, GC % = 65.04, # N's per 100 kbp =  0.00
+    35 GCA_030361985.1_ASM3036198v1_genomic, N50 = 145881, L50 = 13, auN = 158107.8, Total length = 5099783, GC % = 65.04, # N's per 100 kbp =  0.00
+    36 GCA_030362005.1_ASM3036200v1_genomic, N50 = 177060, L50 = 10, auN = 204482.4, Total length = 4989126, GC % = 65.10, # N's per 100 kbp =  0.00
+    37 GCA_030362025.1_ASM3036202v1_genomic, N50 = 124754, L50 = 14, auN = 136202.7, Total length = 5058871, GC % = 65.08, # N's per 100 kbp =  0.00
+    38 GCA_030362045.1_ASM3036204v1_genomic, N50 = 124756, L50 = 14, auN = 142428.5, Total length = 5053114, GC % = 65.10, # N's per 100 kbp =  0.00
+    39 GCA_030362065.1_ASM3036206v1_genomic, N50 = 182336, L50 = 11, auN = 194131.0, Total length = 5029348, GC % = 65.12, # N's per 100 kbp =  0.00
+    40 GCA_030362085.1_ASM3036208v1_genomic, N50 = 105449, L50 = 16, auN = 151234.7, Total length = 5031346, GC % = 65.08, # N's per 100 kbp =  0.00
+    41 GCA_030362105.1_ASM3036210v1_genomic, N50 = 113830, L50 = 16, auN = 118524.3, Total length = 5030488, GC % = 65.08, # N's per 100 kbp =  0.00
+    42 GCA_030362125.1_ASM3036212v1_genomic, N50 = 115784, L50 = 13, auN = 173183.9, Total length = 5131015, GC % = 65.02, # N's per 100 kbp =  0.00
+    43 GCA_030362135.1_ASM3036213v1_genomic, N50 = 115784, L50 = 14, auN = 164973.5, Total length = 5115603, GC % = 65.02, # N's per 100 kbp =  0.00
+    44 GCA_030362155.1_ASM3036215v1_genomic, N50 = 163383, L50 = 11, auN = 181442.7, Total length = 5006057, GC % = 65.15, # N's per 100 kbp =  0.00
+    45 GCA_030362185.1_ASM3036218v1_genomic, N50 = 185434, L50 = 11, auN = 180466.6, Total length = 5068119, GC % = 65.05, # N's per 100 kbp =  0.00
+    46 GCA_030362205.1_ASM3036220v1_genomic, N50 = 181645, L50 = 10, auN = 203995.6, Total length = 4979728, GC % = 65.13, # N's per 100 kbp =  0.00
+    47 GCA_030362225.1_ASM3036222v1_genomic, N50 = 133594, L50 = 12, auN = 158476.7, Total length = 5196282, GC % = 64.91, # N's per 100 kbp =  0.00
+    48 GCA_030362235.1_ASM3036223v1_genomic, N50 = 132653, L50 = 12, auN = 161636.0, Total length = 5035582, GC % = 65.19, # N's per 100 kbp =  0.00
+    49 GCA_030362265.1_ASM3036226v1_genomic, N50 = 158144, L50 = 10, auN = 198383.1, Total length = 5009178, GC % = 65.08, # N's per 100 kbp =  0.00
+    50 GCA_030362285.1_ASM3036228v1_genomic, N50 = 146765, L50 = 12, auN = 179621.3, Total length = 5049787, GC % = 65.06, # N's per 100 kbp =  0.00
+    51 GCA_030362305.1_ASM3036230v1_genomic, N50 = 115784, L50 = 14, auN = 147864.7, Total length = 5044681, GC % = 65.09, # N's per 100 kbp =  0.00
+    52 GCA_030362315.1_ASM3036231v1_genomic, N50 = 160158, L50 = 11, auN = 184030.4, Total length = 5051464, GC % = 65.04, # N's per 100 kbp =  0.00
+    53 GCA_030362325.1_ASM3036232v1_genomic, N50 = 155706, L50 = 13, auN = 149507.4, Total length = 5049551, GC % = 65.04, # N's per 100 kbp =  0.00
+    54 GCA_030362335.1_ASM3036233v1_genomic, N50 = 177710, L50 = 11, auN = 190147.6, Total length = 5054034, GC % = 65.03, # N's per 100 kbp =  0.00
+    55 GCA_030362385.1_ASM3036238v1_genomic, N50 = 155706, L50 = 10, auN = 189016.4, Total length = 5046347, GC % = 65.04, # N's per 100 kbp =  0.00
+    56 GCA_030362405.1_ASM3036240v1_genomic, N50 = 156278, L50 = 12, auN = 162161.1, Total length = 5052005, GC % = 65.04, # N's per 100 kbp =  0.00
+    57 GCA_030362425.1_ASM3036242v1_genomic, N50 = 168468, L50 = 12, auN = 171560.2, Total length = 5051853, GC % = 65.04, # N's per 100 kbp =  0.00
+    58 GCA_030362435.1_ASM3036243v1_genomic, N50 = 119739, L50 = 11, auN = 222760.2, Total length = 4995951, GC % = 65.12, # N's per 100 kbp =  0.00
+    59 GCA_030362465.1_ASM3036246v1_genomic, N50 = 143481, L50 = 12, auN = 181071.2, Total length = 4995422, GC % = 65.12, # N's per 100 kbp =  0.00
+    60 GCA_030362485.1_ASM3036248v1_genomic, N50 = 177714, L50 = 10, auN = 220516.2, Total length = 5052428, GC % = 65.04, # N's per 100 kbp =  0.00
+    61 GCA_030362505.1_ASM3036250v1_genomic, N50 = 183438, L50 = 10, auN = 197033.3, Total length = 5052782, GC % = 65.04, # N's per 100 kbp =  0.00
+    62 GCA_030362525.1_ASM3036252v1_genomic, N50 = 145830, L50 = 14, auN = 149745.6, Total length = 5054233, GC % = 65.03, # N's per 100 kbp =  0.00
+    63 GCA_030362545.1_ASM3036254v1_genomic, N50 = 137077, L50 = 13, auN = 151409.1, Total length = 5051955, GC % = 65.03, # N's per 100 kbp =  0.00
+    64 GCA_030362565.1_ASM3036256v1_genomic, N50 = 147126, L50 = 13, auN = 156599.6, Total length = 5091961, GC % = 65.01, # N's per 100 kbp =  0.00
+    65 GCA_030362585.1_ASM3036258v1_genomic, N50 = 156278, L50 = 12, auN = 163817.9, Total length = 5054680, GC % = 65.03, # N's per 100 kbp =  0.00
+    66 GCA_030362595.1_ASM3036259v1_genomic, N50 = 142079, L50 = 14, auN = 133551.8, Total length = 5093708, GC % = 65.02, # N's per 100 kbp =  0.00
+    67 GCA_030362625.1_ASM3036262v1_genomic, N50 = 145844, L50 = 13, auN = 150756.6, Total length = 5045886, GC % = 65.04, # N's per 100 kbp =  0.00
+    68 GCA_030362645.1_ASM3036264v1_genomic, N50 = 152352, L50 = 13, auN = 153538.0, Total length = 5050292, GC % = 65.04, # N's per 100 kbp =  0.00
+    69 GCA_030362665.1_ASM3036266v1_genomic, N50 = 147437, L50 = 12, auN = 175152.8, Total length = 5087691, GC % = 65.02, # N's per 100 kbp =  0.00
+    70 GCA_030362685.1_ASM3036268v1_genomic, N50 = 147105, L50 = 12, auN = 161265.6, Total length = 5051835, GC % = 65.04, # N's per 100 kbp =  0.00
+    71 GCA_030362695.1_ASM3036269v1_genomic, N50 = 156278, L50 = 12, auN = 164704.9, Total length = 5052684, GC % = 65.03, # N's per 100 kbp =  0.00
+    72 GCA_030362725.1_ASM3036272v1_genomic, N50 = 168484, L50 = 12, auN = 161122.6, Total length = 5049534, GC % = 65.02, # N's per 100 kbp =  0.00
+    73 GCA_030362745.1_ASM3036274v1_genomic, N50 = 145844, L50 = 13, auN = 151963.8, Total length = 5051777, GC % = 65.04, # N's per 100 kbp =  0.00
+    74 GCA_030362765.1_ASM3036276v1_genomic, N50 = 147782, L50 = 12, auN = 168465.6, Total length = 5052357, GC % = 65.04, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GC_content_plot.pdf
+  Drawing GCA_000589875.1_20120327_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_000589875.1_20120327_genomic_GC_content_plot.pdf
+  Drawing GCA_000589895.1_20120412_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_000589895.1_20120412_genomic_GC_content_plot.pdf
+  Drawing GCA_000589935.1_20120412_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_000589935.1_20120412_genomic_GC_content_plot.pdf
+  Drawing GCA_000589955.1_20120413_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_000589955.1_20120413_genomic_GC_content_plot.pdf
+  Drawing GCA_000589975.1_20120413_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_000589975.1_20120413_genomic_GC_content_plot.pdf
+  Drawing GCA_000589995.1_20120413_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_000589995.1_20120413_genomic_GC_content_plot.pdf
+  Drawing GCA_000590095.1_20121025_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_000590095.1_20121025_genomic_GC_content_plot.pdf
+  Drawing GCA_000590115.1_20121028_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_000590115.1_20121028_genomic_GC_content_plot.pdf
+  Drawing GCA_000590195.1_20121031_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_000590195.1_20121031_genomic_GC_content_plot.pdf
+  Drawing GCA_000590275.1_20120412_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_000590275.1_20120412_genomic_GC_content_plot.pdf
+  Drawing GCA_000590295.1_20120411_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_000590295.1_20120411_genomic_GC_content_plot.pdf
+  Drawing GCA_000590355.1_20120327_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_000590355.1_20120327_genomic_GC_content_plot.pdf
+  Drawing GCA_028750375.1_ASM2875037v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_028750375.1_ASM2875037v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030361545.1_ASM3036154v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030361545.1_ASM3036154v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030361585.1_ASM3036158v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030361585.1_ASM3036158v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030361605.1_ASM3036160v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030361605.1_ASM3036160v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030361625.1_ASM3036162v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030361625.1_ASM3036162v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030361645.1_ASM3036164v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030361645.1_ASM3036164v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030361665.1_ASM3036166v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030361665.1_ASM3036166v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030361675.1_ASM3036167v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030361675.1_ASM3036167v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030361705.1_ASM3036170v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030361705.1_ASM3036170v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030361725.1_ASM3036172v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030361725.1_ASM3036172v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030361745.1_ASM3036174v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030361745.1_ASM3036174v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030361765.1_ASM3036176v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030361765.1_ASM3036176v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030361785.1_ASM3036178v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030361785.1_ASM3036178v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030361805.1_ASM3036180v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030361805.1_ASM3036180v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030361825.1_ASM3036182v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030361825.1_ASM3036182v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030361845.1_ASM3036184v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030361845.1_ASM3036184v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030361865.1_ASM3036186v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030361865.1_ASM3036186v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030361885.1_ASM3036188v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030361885.1_ASM3036188v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030361905.1_ASM3036190v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030361905.1_ASM3036190v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030361925.1_ASM3036192v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030361925.1_ASM3036192v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030361945.1_ASM3036194v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030361945.1_ASM3036194v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030361965.1_ASM3036196v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030361965.1_ASM3036196v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030361985.1_ASM3036198v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030361985.1_ASM3036198v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030362005.1_ASM3036200v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030362005.1_ASM3036200v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030362025.1_ASM3036202v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030362025.1_ASM3036202v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030362045.1_ASM3036204v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030362045.1_ASM3036204v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030362065.1_ASM3036206v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030362065.1_ASM3036206v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030362085.1_ASM3036208v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030362085.1_ASM3036208v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030362105.1_ASM3036210v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030362105.1_ASM3036210v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030362125.1_ASM3036212v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030362125.1_ASM3036212v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030362135.1_ASM3036213v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030362135.1_ASM3036213v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030362155.1_ASM3036215v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030362155.1_ASM3036215v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030362185.1_ASM3036218v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030362185.1_ASM3036218v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030362205.1_ASM3036220v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030362205.1_ASM3036220v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030362225.1_ASM3036222v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030362225.1_ASM3036222v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030362235.1_ASM3036223v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030362235.1_ASM3036223v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030362265.1_ASM3036226v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030362265.1_ASM3036226v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030362285.1_ASM3036228v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030362285.1_ASM3036228v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030362305.1_ASM3036230v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030362305.1_ASM3036230v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030362315.1_ASM3036231v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030362315.1_ASM3036231v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030362325.1_ASM3036232v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030362325.1_ASM3036232v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030362335.1_ASM3036233v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030362335.1_ASM3036233v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030362385.1_ASM3036238v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030362385.1_ASM3036238v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030362405.1_ASM3036240v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030362405.1_ASM3036240v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030362425.1_ASM3036242v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030362425.1_ASM3036242v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030362435.1_ASM3036243v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030362435.1_ASM3036243v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030362465.1_ASM3036246v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030362465.1_ASM3036246v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030362485.1_ASM3036248v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030362485.1_ASM3036248v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030362505.1_ASM3036250v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030362505.1_ASM3036250v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030362525.1_ASM3036252v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030362525.1_ASM3036252v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030362545.1_ASM3036254v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030362545.1_ASM3036254v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030362565.1_ASM3036256v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030362565.1_ASM3036256v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030362585.1_ASM3036258v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030362585.1_ASM3036258v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030362595.1_ASM3036259v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030362595.1_ASM3036259v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030362625.1_ASM3036262v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030362625.1_ASM3036262v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030362645.1_ASM3036264v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030362645.1_ASM3036264v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030362665.1_ASM3036266v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030362665.1_ASM3036266v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030362685.1_ASM3036268v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030362685.1_ASM3036268v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030362695.1_ASM3036269v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030362695.1_ASM3036269v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030362725.1_ASM3036272v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030362725.1_ASM3036272v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030362745.1_ASM3036274v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030362745.1_ASM3036274v1_genomic_GC_content_plot.pdf
+  Drawing GCA_030362765.1_ASM3036276v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/basic_stats/GCA_030362765.1_ASM3036276v1_genomic_GC_content_plot.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2024-05-23 12:40:50
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating PDF with all tables and plots...
+  2 of 2: Creating Icarus viewers...
+Done
+
+2024-05-23 12:40:59
+RESULTS:
+  Text versions of total report are saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/report.html
+  PDF version (tables and plots) is saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/report.pdf
+  Icarus (contig browser) is saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/icarus.html
+  Log is saved to /data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/08_quast/quast_results/results_2024_05_23_12_40_23/quast.log
+
+Finished: 2024-05-23 12:41:00
+Elapsed time: 0:00:36.140388
+NOTICEs: 2; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

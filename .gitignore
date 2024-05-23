@@ -8,7 +8,10 @@
 *workdir/files
 */checkm_out
 */*.jsonl
-.dmanifest
+*.dmanifest
+
+
+*quast_results/latest
 
 ### Large files in the PhaME results
 *workdir/results/gaps
