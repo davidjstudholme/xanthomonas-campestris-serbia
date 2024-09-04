@@ -1,0 +1,250 @@
+09:43:56.240 - INFO - UTILS - version=1.9.4
+09:43:56.240 - INFO - UTILS - developer: Oliver Schwengers, github.com/oschwengers
+09:43:56.240 - INFO - UTILS - command: /data/djs217/anaconda3/envs/bakta_env/bin/bakta -v --genus Xanthomonas --complete --plasmid unnamed CP066974.1.10008.fasta
+09:43:56.240 - INFO - UTILS - local time: 2024-09-04 09:43:56
+09:43:56.244 - INFO - UTILS - machine: type=x86_64, cores=32
+09:43:56.244 - INFO - UTILS - system: type=Linux, release=5.15.0-118-generic
+09:43:56.244 - INFO - UTILS - python: version=3.10.14, implementation=CPython
+09:43:56.244 - INFO - CONFIG - threads=32
+09:43:56.244 - INFO - CONFIG - verbose=True
+09:43:56.244 - INFO - CONFIG - debug=False
+09:43:56.244 - INFO - CONFIG - database: type=environment, path=/data/djs217/bakta/db
+09:43:56.245 - INFO - CONFIG - tmp-path=/tmp/tmpwybkg4no
+09:43:56.245 - INFO - CONFIG - genome-path=/data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/11_circlator/CP066974.1.10008.fasta
+09:43:56.245 - INFO - CONFIG - min_contig_length=1
+09:43:56.245 - INFO - CONFIG - prefix=CP066974.1.10008
+09:43:56.245 - INFO - CONFIG - output-path=/data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/11_circlator
+09:43:56.245 - INFO - CONFIG - force=False
+09:43:56.245 - INFO - CONFIG - genus=Xanthomonas
+09:43:56.245 - INFO - CONFIG - species=None
+09:43:56.245 - INFO - CONFIG - strain=None
+09:43:56.245 - INFO - CONFIG - plasmid=unnamed
+09:43:56.245 - INFO - CONFIG - complete=True
+09:43:56.245 - INFO - CONFIG - prodigal_tf=None
+09:43:56.245 - INFO - CONFIG - translation_table=11
+09:43:56.245 - INFO - CONFIG - gram=?
+09:43:56.245 - INFO - CONFIG - compliant=False
+09:43:56.245 - INFO - CONFIG - meta=False
+09:43:56.245 - INFO - CONFIG - locus=None
+09:43:56.245 - INFO - CONFIG - locus-tag=None
+09:43:56.245 - INFO - CONFIG - keep_contig_headers=False
+09:43:56.245 - INFO - CONFIG - replicon-table=None
+09:43:56.245 - INFO - CONFIG - regions=None
+09:43:56.245 - INFO - CONFIG - skip-tRNA=False
+09:43:56.245 - INFO - CONFIG - skip-tmRNA=False
+09:43:56.245 - INFO - CONFIG - skip-rRNA=False
+09:43:56.245 - INFO - CONFIG - skip-ncRNA=False
+09:43:56.245 - INFO - CONFIG - skip-ncRNA-region=False
+09:43:56.245 - INFO - CONFIG - skip-CRISPR=False
+09:43:56.245 - INFO - CONFIG - skip-CDS=False
+09:43:56.245 - INFO - CONFIG - skip-pseudo=False
+09:43:56.245 - INFO - CONFIG - skip-sORF=False
+09:43:56.246 - INFO - CONFIG - skip-gap=False
+09:43:56.246 - INFO - CONFIG - skip-ori=False
+09:43:56.246 - INFO - CONFIG - skip-plot=False
+09:43:56.246 - INFO - DB - detected: major=5, minor=1, type=full, date=2024-01-19
+09:43:56.353 - INFO - UTILS - dependency: tool=tRNAscan-SE, version=v2.0.12, path=/data/djs217/anaconda3/envs/bakta_env/bin/tRNAscan-SE
+09:43:56.357 - INFO - UTILS - dependency: tool=Aragorn, version=v1.2.41, path=/data/djs217/anaconda3/envs/bakta_env/bin/aragorn
+09:43:56.361 - INFO - UTILS - dependency: tool=CMscan, version=v1.1.5, path=/data/djs217/anaconda3/envs/bakta_env/bin/cmscan
+09:43:56.367 - INFO - UTILS - dependency: tool=PilerCR, version=v1.6.0, path=/data/djs217/anaconda3/envs/bakta_env/bin/pilercr
+09:43:56.492 - INFO - UTILS - dependency: tool=Pyrodigal, version=v3.5.1, path=/data/djs217/anaconda3/envs/bakta_env/bin/python3.10
+09:43:56.499 - INFO - UTILS - dependency: tool=AMRFinderPlus, version=v3.12.8, path=/data/djs217/anaconda3/envs/bakta_env/bin/amrfinder
+09:43:56.594 - INFO - UTILS - dependency: tool=Pyhmmer, version=v0.10.14, path=/data/djs217/anaconda3/envs/bakta_env/bin/python3.10
+09:43:56.604 - INFO - UTILS - dependency: tool=Diamond, version=v2.1.8, path=/data/djs217/anaconda3/envs/bakta_env/bin/diamond
+09:43:56.738 - INFO - UTILS - dependency: tool=Blastn, version=v2.16.0, path=/data/djs217/anaconda3/envs/bakta_env/bin/blastn
+09:43:57.137 - INFO - UTILS - dependency: tool=Circos, version=v0.69.8, path=/data/djs217/anaconda3/envs/bakta_env/bin/circos
+09:43:57.159 - INFO - FASTA - imported: id=CP066974.1, length=38763, description=Xanthomonas campestris pv. campestris strain 10008 plasmid unnamed2, genomic=True, dna=True
+09:43:57.159 - INFO - MAIN - imported sequences=1
+09:43:57.159 - INFO - UTILS - qc: revised sequence: id=contig_1, orig-id=CP066974.1, type=plasmid, complete=True, topology=circular, name=unnamed, description='[organism=Xanthomonas] [gcode=11] [completeness=complete] [topology=circular] [plasmid-name=unnamed]', orig-description='Xanthomonas campestris pv. campestris strain 10008 plasmid unnamed2'
+09:43:57.159 - INFO - FASTA - write genome sequences: path=/tmp/tmpwybkg4no/contigs.fna, description=False, wrap=False
+09:43:57.796 - INFO - T_RNA - predicted=0
+09:43:57.840 - INFO - TM_RNA - predicted=0
+09:43:57.960 - INFO - R_RNA - predicted=0
+09:43:59.182 - INFO - NC_RNA - predicted=0
+09:43:59.594 - INFO - NC_RNA_REGION - predicted=0
+09:43:59.626 - INFO - CRISPR - predicted=0
+09:43:59.627 - INFO - CDS - create prodigal training info object: meta=False, closed=False
+09:43:59.706 - INFO - CDS - contig=contig_1, start=56, stop=391, strand=+, frame=2, truncated=no, start-type=ATG, RBS-motif=AGGA
+09:43:59.707 - INFO - CDS - contig=contig_1, start=736, stop=1200, strand=+, frame=1, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
+09:43:59.707 - INFO - CDS - contig=contig_1, start=1205, stop=1801, strand=+, frame=2, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
+09:43:59.707 - INFO - CDS - contig=contig_1, start=1794, stop=2384, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
+09:43:59.707 - INFO - CDS - contig=contig_1, start=2634, stop=2879, strand=-, frame=2, truncated=no, start-type=ATG, RBS-motif=None
+09:43:59.707 - INFO - CDS - contig=contig_1, start=3007, stop=5637, strand=+, frame=1, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
+09:43:59.708 - INFO - CDS - contig=contig_1, start=5642, stop=7699, strand=+, frame=2, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
+09:43:59.708 - INFO - CDS - contig=contig_1, start=7696, stop=8187, strand=+, frame=1, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
+09:43:59.708 - INFO - CDS - contig=contig_1, start=8184, stop=9197, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
+09:43:59.708 - INFO - CDS - contig=contig_1, start=9479, stop=9772, strand=-, frame=3, truncated=no, start-type=GTG, RBS-motif=GGA/GAG/AGG
+09:43:59.708 - INFO - CDS - contig=contig_1, start=9818, stop=9994, strand=+, frame=2, truncated=no, start-type=ATG, RBS-motif=None
+09:43:59.708 - INFO - CDS - contig=contig_1, start=10061, stop=12631, strand=+, frame=2, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
+09:43:59.708 - INFO - CDS - contig=contig_1, start=12650, stop=13429, strand=+, frame=2, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
+09:43:59.709 - INFO - CDS - contig=contig_1, start=13787, stop=15265, strand=+, frame=2, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
+09:43:59.709 - INFO - CDS - contig=contig_1, start=15272, stop=15982, strand=+, frame=2, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
+09:43:59.709 - INFO - CDS - contig=contig_1, start=16009, stop=17001, strand=+, frame=1, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
+09:43:59.709 - INFO - CDS - contig=contig_1, start=17017, stop=18369, strand=+, frame=1, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
+09:43:59.709 - INFO - CDS - contig=contig_1, start=18440, stop=18748, strand=+, frame=2, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
+09:43:59.709 - INFO - CDS - contig=contig_1, start=18759, stop=18998, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=AGGA
+09:43:59.709 - INFO - CDS - contig=contig_1, start=19071, stop=19319, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
+09:43:59.709 - INFO - CDS - contig=contig_1, start=19321, stop=21507, strand=+, frame=1, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
+09:43:59.710 - INFO - CDS - contig=contig_1, start=21512, stop=21781, strand=+, frame=2, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
+09:43:59.710 - INFO - CDS - contig=contig_1, start=21778, stop=22026, strand=+, frame=1, truncated=no, start-type=GTG, RBS-motif=None
+09:43:59.710 - INFO - CDS - contig=contig_1, start=22042, stop=22320, strand=+, frame=1, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
+09:43:59.710 - INFO - CDS - contig=contig_1, start=22331, stop=22672, strand=+, frame=2, truncated=no, start-type=ATG, RBS-motif=AGGAG
+09:43:59.710 - INFO - CDS - contig=contig_1, start=22605, stop=22766, strand=-, frame=2, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
+09:43:59.710 - INFO - CDS - contig=contig_1, start=22869, stop=23168, strand=+, frame=3, truncated=no, start-type=TTG, RBS-motif=GGA/GAG/AGG
+09:43:59.710 - INFO - CDS - contig=contig_1, start=23597, stop=23896, strand=+, frame=2, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
+09:43:59.710 - INFO - CDS - contig=contig_1, start=23959, stop=24189, strand=+, frame=1, truncated=no, start-type=ATG, RBS-motif=AGGAG
+09:43:59.710 - INFO - CDS - contig=contig_1, start=24300, stop=24527, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=AGGAG
+09:43:59.711 - INFO - CDS - contig=contig_1, start=24524, stop=24664, strand=+, frame=2, truncated=no, start-type=ATG, RBS-motif=AGGAG
+09:43:59.711 - INFO - CDS - contig=contig_1, start=25125, stop=25487, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
+09:43:59.711 - INFO - CDS - contig=contig_1, start=25509, stop=25832, strand=-, frame=2, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
+09:43:59.711 - INFO - CDS - contig=contig_1, start=26284, stop=26748, strand=+, frame=1, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
+09:43:59.711 - INFO - CDS - contig=contig_1, start=26745, stop=27614, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=None
+09:43:59.711 - INFO - CDS - contig=contig_1, start=27648, stop=27983, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=AGGA
+09:43:59.711 - INFO - CDS - contig=contig_1, start=27987, stop=28592, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=AGGA
+09:43:59.711 - INFO - CDS - contig=contig_1, start=28615, stop=29070, strand=+, frame=1, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
+09:43:59.711 - INFO - CDS - contig=contig_1, start=30346, stop=30669, strand=+, frame=1, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
+09:43:59.712 - INFO - CDS - contig=contig_1, start=31073, stop=31351, strand=+, frame=2, truncated=no, start-type=ATG, RBS-motif=AGGA
+09:43:59.712 - INFO - CDS - contig=contig_1, start=31420, stop=31575, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
+09:43:59.712 - INFO - CDS - contig=contig_1, start=31941, stop=32339, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
+09:43:59.712 - INFO - CDS - contig=contig_1, start=32409, stop=32606, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
+09:43:59.712 - INFO - CDS - contig=contig_1, start=32603, stop=32842, strand=+, frame=2, truncated=no, start-type=ATG, RBS-motif=None
+09:43:59.712 - INFO - CDS - contig=contig_1, start=32856, stop=33449, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=AGGA
+09:43:59.712 - INFO - CDS - contig=contig_1, start=33502, stop=33729, strand=+, frame=1, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
+09:43:59.712 - INFO - CDS - contig=contig_1, start=33836, stop=33985, strand=-, frame=3, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
+09:43:59.712 - INFO - CDS - contig=contig_1, start=34063, stop=34293, strand=+, frame=1, truncated=no, start-type=GTG, RBS-motif=GGAG/GAGG
+09:43:59.713 - INFO - CDS - contig=contig_1, start=35113, stop=35934, strand=+, frame=1, truncated=no, start-type=ATG, RBS-motif=None
+09:43:59.713 - INFO - CDS - contig=contig_1, start=37356, stop=38057, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
+09:43:59.713 - INFO - CDS - contig=contig_1, start=38184, stop=38762, strand=+, frame=3, truncated=3-prime, start-type=ATG, RBS-motif=AGGAG
+09:43:59.713 - INFO - CDS - truncated CDS: contig=contig_1, start=38184, stop=38762, strand=+, frame=3, truncated=3-prime, start-type=ATG, RBS-motif=AGGAG, aa-hexdigest=f8a6bfeaa68f26f4b134ad62e0a0cbd4, aa=[MKTVAIAVQK..EPGGKASFEI]
+09:43:59.713 - INFO - CDS - contig=contig_1, start=56, stop=391, strand=+, nt=[ATGACCAGCG..GGCCGAGTGA]
+09:43:59.713 - INFO - CDS - contig=contig_1, start=736, stop=1200, strand=+, nt=[ATGGGTGCCC..GCGAGGTTAG]
+09:43:59.713 - INFO - CDS - contig=contig_1, start=1205, stop=1801, strand=+, nt=[ATGTCTGTGA..TCATGAGTGA]
+09:43:59.713 - INFO - CDS - contig=contig_1, start=1794, stop=2384, strand=+, nt=[ATGAGTGACC..GCCACGCTGA]
+09:43:59.713 - INFO - CDS - contig=contig_1, start=2634, stop=2879, strand=-, nt=[ATGCGTCCGG..AACAGGCTGA]
+09:43:59.713 - INFO - CDS - contig=contig_1, start=3007, stop=5637, strand=+, nt=[ATGCAGCGGC..ACGGAGTTAA]
+09:43:59.714 - INFO - CDS - contig=contig_1, start=5642, stop=7699, strand=+, nt=[ATGGCACCAC..GCTCCCATGA]
+09:43:59.714 - INFO - CDS - contig=contig_1, start=7696, stop=8187, strand=+, nt=[ATGAAGAAAT..CACCCCATGA]
+09:43:59.714 - INFO - CDS - contig=contig_1, start=8184, stop=9197, strand=+, nt=[ATGAACGCCA..AGCCGAGTAG]
+09:43:59.714 - INFO - CDS - contig=contig_1, start=9479, stop=9772, strand=-, nt=[GTGTACCGGC..GCTTGCGTAG]
+09:43:59.714 - INFO - CDS - contig=contig_1, start=9818, stop=9994, strand=+, nt=[ATGGCCGTTG..CCGCGCATAG]
+09:43:59.714 - INFO - CDS - contig=contig_1, start=10061, stop=12631, strand=+, nt=[ATGCAGCGAC..CGAAGCCTAA]
+09:43:59.714 - INFO - CDS - contig=contig_1, start=12650, stop=13429, strand=+, nt=[ATGACCATTC..CTTGAAGTGA]
+09:43:59.714 - INFO - CDS - contig=contig_1, start=13787, stop=15265, strand=+, nt=[ATGGACCCGA..CGAGAGCTAA]
+09:43:59.714 - INFO - CDS - contig=contig_1, start=15272, stop=15982, strand=+, nt=[ATGAGCAGCA..CACCCCCTAA]
+09:43:59.714 - INFO - CDS - contig=contig_1, start=16009, stop=17001, strand=+, nt=[ATGCAAACCA..CCGTCGCTAA]
+09:43:59.714 - INFO - CDS - contig=contig_1, start=17017, stop=18369, strand=+, nt=[ATGCAGACCA..TGGCCCGTGA]
+09:43:59.714 - INFO - CDS - contig=contig_1, start=18440, stop=18748, strand=+, nt=[ATGCCTGCAA..CCCGCTCTAG]
+09:43:59.714 - INFO - CDS - contig=contig_1, start=18759, stop=18998, strand=+, nt=[ATGGCCCGCA..AGCTGCATGA]
+09:43:59.714 - INFO - CDS - contig=contig_1, start=19071, stop=19319, strand=+, nt=[ATGAACGCAC..GGAGCGCTGA]
+09:43:59.715 - INFO - CDS - contig=contig_1, start=19321, stop=21507, strand=+, nt=[ATGCGTCTAT..CAAGGTGTAA]
+09:43:59.715 - INFO - CDS - contig=contig_1, start=21512, stop=21781, strand=+, nt=[ATGCGTGCAT..TGACTCGTGA]
+09:43:59.715 - INFO - CDS - contig=contig_1, start=21778, stop=22026, strand=+, nt=[GTGATACGCC..TGCTGTCTGA]
+09:43:59.715 - INFO - CDS - contig=contig_1, start=22042, stop=22320, strand=+, nt=[ATGAAGGATG..AGAAGCCTAG]
+09:43:59.715 - INFO - CDS - contig=contig_1, start=22331, stop=22672, strand=+, nt=[ATGCCAGAAG..CCACCAATGA]
+09:43:59.715 - INFO - CDS - contig=contig_1, start=22605, stop=22766, strand=-, nt=[ATGCGCCAGA..ACGAAGGTGA]
+09:43:59.715 - INFO - CDS - contig=contig_1, start=22869, stop=23168, strand=+, nt=[TTGCTAAACG..GGGGGCGTGA]
+09:43:59.715 - INFO - CDS - contig=contig_1, start=23597, stop=23896, strand=+, nt=[ATGCATCACC..CGAAAACTAA]
+09:43:59.715 - INFO - CDS - contig=contig_1, start=23959, stop=24189, strand=+, nt=[ATGCACGACG..CAGGCACTAA]
+09:43:59.715 - INFO - CDS - contig=contig_1, start=24300, stop=24527, strand=+, nt=[ATGAAACTTC..GACCTCATGA]
+09:43:59.715 - INFO - CDS - contig=contig_1, start=24524, stop=24664, strand=+, nt=[ATGAACTTCC..GCTCCTCTAG]
+09:43:59.715 - INFO - CDS - contig=contig_1, start=25125, stop=25487, strand=+, nt=[ATGTACGAAA..AGACCAGTAA]
+09:43:59.715 - INFO - CDS - contig=contig_1, start=25509, stop=25832, strand=-, nt=[ATGAAGACAG..GATGCTCTAA]
+09:43:59.715 - INFO - CDS - contig=contig_1, start=26284, stop=26748, strand=+, nt=[ATGACATCAC..CGGCGCATGA]
+09:43:59.715 - INFO - CDS - contig=contig_1, start=26745, stop=27614, strand=+, nt=[ATGAGCGACC..CACTCGTTGA]
+09:43:59.715 - INFO - CDS - contig=contig_1, start=27648, stop=27983, strand=+, nt=[ATGACGCAGA..CAAGGACTGA]
+09:43:59.715 - INFO - CDS - contig=contig_1, start=27987, stop=28592, strand=+, nt=[ATGCCGCATG..CTCCAAATAA]
+09:43:59.715 - INFO - CDS - contig=contig_1, start=28615, stop=29070, strand=+, nt=[ATGCCACTTA..CGAGGCATAA]
+09:43:59.716 - INFO - CDS - contig=contig_1, start=30346, stop=30669, strand=+, nt=[ATGAGCCACA..GTTTGCCTGA]
+09:43:59.716 - INFO - CDS - contig=contig_1, start=31073, stop=31351, strand=+, nt=[ATGCCTAAAT..ACCGGACTAG]
+09:43:59.716 - INFO - CDS - contig=contig_1, start=31420, stop=31575, strand=-, nt=[ATGCAAGAGC..GGACGACTGA]
+09:43:59.716 - INFO - CDS - contig=contig_1, start=31941, stop=32339, strand=+, nt=[ATGTTCACCG..CGAAGACTGA]
+09:43:59.716 - INFO - CDS - contig=contig_1, start=32409, stop=32606, strand=+, nt=[ATGGACCAGG..TGCGGCATGA]
+09:43:59.716 - INFO - CDS - contig=contig_1, start=32603, stop=32842, strand=+, nt=[ATGACCGCCG..CCAGCACTGA]
+09:43:59.716 - INFO - CDS - contig=contig_1, start=32856, stop=33449, strand=+, nt=[ATGCCTAAGC..CTACGCTTGA]
+09:43:59.716 - INFO - CDS - contig=contig_1, start=33502, stop=33729, strand=+, nt=[ATGAAACTGC..GTCCCGCTGA]
+09:43:59.716 - INFO - CDS - contig=contig_1, start=33836, stop=33985, strand=-, nt=[ATGCGCGCCG..TTTAACATGA]
+09:43:59.716 - INFO - CDS - contig=contig_1, start=34063, stop=34293, strand=+, nt=[GTGTCCACCT..AGGCGCCTAG]
+09:43:59.716 - INFO - CDS - contig=contig_1, start=35113, stop=35934, strand=+, nt=[ATGCCAGCAG..GTTCAAATAG]
+09:43:59.716 - INFO - CDS - contig=contig_1, start=37356, stop=38057, strand=+, nt=[ATGGAACTGC..TGCTGGCTAG]
+09:43:59.716 - INFO - CDS - contig=contig_1, start=38184, stop=38762, strand=+, nt=[ATGAAAACCG..ATTTGAGATC]
+09:43:59.717 - INFO - CDS - predicted=51
+09:43:59.955 - INFO - ORF - discarded=0
+09:44:01.422 - INFO - UPS - looked-up=40
+09:44:02.144 - INFO - IPS - looked-up=40
+09:44:02.145 - INFO - ORF - write internal aa seqs: # seqs=11, path=/tmp/tmpwybkg4no/cds.psc.faa
+09:45:35.529 - INFO - PSC - found: PSC=5, PSCC=1
+09:45:35.656 - INFO - PSC - looked-up=46
+09:45:35.693 - INFO - PSCC - looked-up=46
+09:45:35.694 - INFO - ORF - write internal aa seqs: # seqs=51, path=/tmp/tmpwybkg4no/cds.expert.faa
+09:45:36.430 - INFO - EXPERT-AMRFINDER - found=0
+09:45:37.565 - INFO - EXPERT_AA_SEQ - found=0
+09:45:37.565 - INFO - ANNOTATION - marked as hypothetical: contig=contig_1, start=56, stop=391, strand=+
+09:45:37.566 - INFO - ANNOTATION - marked as hypothetical: contig=contig_1, start=2634, stop=2879, strand=-
+09:45:37.566 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=traG
+09:45:37.566 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=copG
+09:45:37.567 - INFO - ANNOTATION - marked as hypothetical: contig=contig_1, start=9479, stop=9772, strand=-
+09:45:37.567 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=trbD
+09:45:37.567 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=trbL
+09:45:37.567 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=trbF
+09:45:37.568 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=trbG
+09:45:37.568 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=trbI
+09:45:37.568 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=copG
+09:45:37.568 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=parB
+09:45:37.568 - INFO - ANNOTATION - marked as hypothetical: contig=contig_1, start=19071, stop=19319, strand=+
+09:45:37.569 - INFO - ANNOTATION - marked as hypothetical: contig=contig_1, start=22042, stop=22320, strand=+
+09:45:37.569 - INFO - ANNOTATION - marked as hypothetical: contig=contig_1, start=22331, stop=22672, strand=+
+09:45:37.569 - INFO - ANNOTATION - marked as hypothetical: contig=contig_1, start=22605, stop=22766, strand=-
+09:45:37.569 - INFO - ANNOTATION - marked as hypothetical: contig=contig_1, start=22869, stop=23168, strand=+
+09:45:37.569 - INFO - ANNOTATION - marked as hypothetical: contig=contig_1, start=23959, stop=24189, strand=+
+09:45:37.569 - INFO - ANNOTATION - marked as hypothetical: contig=contig_1, start=24300, stop=24527, strand=+
+09:45:37.570 - INFO - ANNOTATION - marked as hypothetical: contig=contig_1, start=24524, stop=24664, strand=+
+09:45:37.570 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=ptxR
+09:45:37.570 - INFO - ANNOTATION - marked as hypothetical: contig=contig_1, start=26284, stop=26748, strand=+
+09:45:37.570 - INFO - ANNOTATION - marked as hypothetical: contig=contig_1, start=27648, stop=27983, strand=+
+09:45:37.570 - INFO - ANNOTATION - marked as hypothetical: contig=contig_1, start=28615, stop=29070, strand=+
+09:45:37.570 - INFO - ANNOTATION - fix product: revise DUF. new=DUF6166 domain-containing protein, old=Family of unknown function (DUF6166)
+09:45:37.571 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=dnaJ
+09:45:37.571 - INFO - ANNOTATION - fix product: revise DUF. new=DUF6573 domain-containing protein, old=Family of unknown function (DUF6573)
+09:45:37.571 - INFO - ANNOTATION - marked as hypothetical: contig=contig_1, start=32409, stop=32606, strand=+
+09:45:37.571 - INFO - ANNOTATION - marked as hypothetical: contig=contig_1, start=32603, stop=32842, strand=+
+09:45:37.571 - INFO - ANNOTATION - marked as hypothetical: contig=contig_1, start=33836, stop=33985, strand=-
+09:45:37.572 - INFO - ANNOTATION - marked as hypothetical: contig=contig_1, start=34063, stop=34293, strand=+
+09:45:37.572 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=parA
+09:45:37.572 - INFO - ORF - write internal aa seqs: # seqs=18, path=/tmp/tmpwybkg4no/cds.pseudo.candidates.faa
+09:47:31.455 - INFO - CDS - found: pseudogene-candidates=2
+09:47:33.548 - INFO - CDS - found: pseudogenes=0
+09:47:33.549 - INFO - PSC - looked-up=0
+09:47:33.550 - INFO - PSCC - looked-up=0
+09:47:39.813 - INFO - CDS - predicted-pfams=0, CDS-w/-pfams=0
+09:47:39.864 - INFO - S_ORF - predicted=395
+09:47:40.040 - INFO - S_ORF - sORF filter: # valid=134, # discarded=261
+09:47:40.241 - INFO - ORF - discarded=0
+09:47:43.985 - INFO - UPS - looked-up=0
+09:47:43.987 - INFO - IPS - looked-up=0
+09:47:43.988 - INFO - ORF - write internal aa seqs: # seqs=134, path=/tmp/tmpwybkg4no/sorf.faa
+09:47:44.273 - INFO - S_ORF - found=0
+09:47:44.274 - INFO - PSC - looked-up=0
+09:47:44.275 - INFO - PSCC - looked-up=0
+09:47:45.741 - INFO - ORI - predicted=0
+09:47:45.958 - INFO - ORI - predicted=0
+09:47:45.959 - INFO - UTILS - generated sequence tag prefix: prefix=EIBMHGBIFF, length=10, MD5=E2B610B2FF7BA0DFB071220DEBC41CDE
+09:47:45.959 - INFO - MAIN - selected features=51
+09:47:45.960 - INFO - UTILS - generated sequence tag prefix: prefix=EIBMHG, length=6, MD5=E2B610B2FF7BA0DFB071220DEBC41CDE
+09:47:45.960 - INFO - MAIN - locus tag prefix=EIBMHG
+09:47:45.960 - INFO - UTILS - genome-size=38763
+09:47:45.962 - INFO - UTILS - GC=0.627
+09:47:45.962 - INFO - UTILS - N=0.000
+09:47:45.962 - INFO - UTILS - N50=38763
+09:47:45.962 - INFO - UTILS - coding-ratio=0.789
+09:47:45.963 - INFO - TSV - write tsv: path=/data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/11_circlator/CP066974.1.10008.tsv
+09:47:45.964 - INFO - GFF - write GFF3: path=/data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/11_circlator/CP066974.1.10008.gff3
+09:47:45.969 - INFO - INSDC - write GenBank: path=/data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/11_circlator/CP066974.1.10008.gbff
+09:47:45.981 - INFO - INSDC - write EMBL: path=/data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/11_circlator/CP066974.1.10008.embl
+09:47:45.991 - INFO - FASTA - write genome sequences: path=/data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/11_circlator/CP066974.1.10008.fna, description=True, wrap=True
+09:47:45.991 - INFO - FASTA - write feature nucleotide sequences: path=/data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/11_circlator/CP066974.1.10008.ffn
+09:47:45.992 - INFO - FASTA - write translated CDS/sORF: path=/data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/11_circlator/CP066974.1.10008.faa
+09:47:46.038 - INFO - PLOT - write circular genome plot: file-name=CP066974.1.10008, output-dir=/data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/11_circlator
+09:47:52.786 - INFO - TSV - write hypothetical tsv: path=/data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/11_circlator/CP066974.1.10008.hypotheticals.tsv
+09:47:52.787 - INFO - FASTA - write translated CDS/sORF: path=/data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/11_circlator/CP066974.1.10008.hypotheticals.faa
+09:47:52.787 - INFO - JSON - write JSON: path=/data/djs217/PROJECTS/18_Xcc_serbia/Xanthomonas_campestris_Serbia/11_circlator/CP066974.1.10008.json
+09:47:52.802 - INFO - MAIN - removed tmp dir: /tmp/tmpwybkg4no
