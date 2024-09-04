@@ -9,7 +9,7 @@ for i in *.fixstart.fasta; do echo $i; bakta -v --genus Xanthomonas --complete -
 
 
 ### Clean up un-necessary files
-rm *fixstart.tsv *fixstart.svg *.promer *.hypotheticals.tsv *.hypotheticals.faa *.json *.png *.embl *.ffn *.gff3 *contigs_with_ends.fa *gff
+rm *fixstart.tsv *fixstart.svg *.promer *.hypotheticals.tsv *.hypotheticals.faa *.json *.png *.embl *.ffn *.gff3 *contigs_with_ends.fa *gff *.faa
 
 
 
