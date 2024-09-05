@@ -2,7 +2,7 @@
       workdir = ../03_workdir # directory where contigs/reads files are located and output is stored
 
     reference = 1  # 0:pick a random reference; 1:use given reference; 2: use ANI based reference
-      reffile = GCA_028750375.1_ASM2875037v1_genomic.fna  # reference filename 
+      reffile = GCA_000007145.1_ASM714v1_genomic.fna  # reference filename 
 
       project = test  # main alignment file name
 
