@@ -21,3 +21,15 @@
 *workdir/results/tables
 *workdir/results/alignments
 *workdir/results/temp
+
+### BLAST-related files
+*.nhr
+*.nin
+*.not
+*.nsq
+*.ntf
+*.nto
+*.ndb
+
+wget-log
+
