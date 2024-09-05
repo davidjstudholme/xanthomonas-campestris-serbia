@@ -1,3 +1,21 @@
+10008.fasta
+147.fasta
+ATCC_33913.fasta
+CFBP_1124.fasta
+CFBP_1606R.fasta
+CFBP_1712.fasta
+CFBP_1713.fasta
+CFBP_4954.fasta
+CFBP_4955.fasta
+CFBP_5130.fasta
+CFBP_5683.fasta
+CFBP_6865R.fasta
+CN01.fasta
+CN10.fasta
+TJ.fasta
+WHRI_8978.fasta
+XRE1.fasta
+XRE5.fasta
 Xc105.fasta
 Xc110.fasta
 Xc111.fasta
@@ -53,3 +71,5 @@ Xc58.fasta
 Xc67.fasta
 Xc7.fasta
 Xc78.fasta
+Xcr_CFBP_5828R.fasta
+Xcr_NCPPB_1946.fasta
