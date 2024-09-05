@@ -1,7 +1,9 @@
-GCA_028750375_1_ASM2875037v1_genomic
-11085_contig
+GCA_000007145_1_ASM714v1_genomic
+10008_contig
 147_contig
+ATCC_33913_contig
 CFBP_1124_contig
+CFBP_1606R_contig
 CFBP_1712_contig
 CFBP_1713_contig
 CFBP_4954_contig
@@ -11,6 +13,8 @@ CFBP_5683_contig
 CFBP_6865R_contig
 CN01_contig
 CN10_contig
+TJ_contig
+WHRI_8978_contig
 XRE1_contig
 XRE5_contig
 Xc105_contig
@@ -39,7 +43,7 @@ Xc221_1_contig
 Xc221_2_contig
 Xc252_contig
 Xc25_contig
-Xc261_contig
+Xc2612_contig
 Xc272_contig
 Xc292_contig
 Xc302_contig
@@ -69,3 +73,4 @@ Xc67_contig
 Xc78_contig
 Xc7_contig
 Xcr_CFBP_5828R_contig
+Xcr_NCPPB_1946_contig
