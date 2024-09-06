@@ -1,11 +1,0 @@
---2024-09-05 19:57:30--  https://www.ncbi.nlm.nih.gov/nuccore/JAUBNN020000033.1?report=fasta
-Resolving www.ncbi.nlm.nih.gov (www.ncbi.nlm.nih.gov)... 130.14.29.110, 2607:f220:41e:4290::110
-Connecting to www.ncbi.nlm.nih.gov (www.ncbi.nlm.nih.gov)|130.14.29.110|:443... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified [text/html]
-Saving to: ‘JAUBNN020000033.1?report=fasta’
-
-JAUBNN020000033.1?report=fasta                    [<=>                                                                                               ]       0  --.-KB/s               JAUBNN020000033.1?report=fasta                    [ <=>                                                                                              ]  66.85K   382KB/s    in 0.2s    
-
-2024-09-05 19:57:32 (382 KB/s) - ‘JAUBNN020000033.1?report=fasta’ saved [68454]
-
