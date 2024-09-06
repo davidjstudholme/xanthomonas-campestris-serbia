@@ -9,6 +9,8 @@ Submitted to the Open Access journal _Access Microbiology_.
 
 A preprint of the manuscript is available here: https://doi.org/10.1099/acmi.0.000870.v1.
 
+- Command lines for obtaining the genome sequences from NCBI databases are [here](01_genome_assemblies).
+- Command lines for obtaining a reference genome sequence for PhaME are [here](02_ref).
 - Command lines for Unicycler genome assemblies are [here](09_unicycler_assemblies).
 - Command lines and configuration file for PhaME are phylogenetic analysis [here](04_phame).
 - Results of the PhaME phylogenetic analysis are [here](03_workdir/results)
