@@ -1,3 +1,19 @@
 [![DOI](https://zenodo.org/badge/804824167.svg)](https://zenodo.org/doi/10.5281/zenodo.13628631)
-# Genome sequence data for 61 isolates of _Xanthomonas campestris_ pv. _campestris_ from _Brassica_ crops in Serbia
-This repository contains command lines, configuration files and key output files associated with our manuscript describing genome sequences of Xcc isolates from Serbia.
+
+This repository contains command lines, configuration files and key output files associated with this manuscript:
+
+**Genome sequence data for 61 isolates of _Xanthomonas campestris_ pv. _campestris_ from brassica crops in Serbia.**
+Tatjana Popović Milovanović, Shannon Greer, Renata Iličić, Aleksandra Jelušić, Daisy Brown, Mikaeel Hussain, Jamie Harrison, Murray Grant, Joana Vicente and David John Studholme.
+
+Submitted to the Open Access journal _Access Microbiology_.
+
+A preprint of the manuscript is available here: https://doi.org/10.1099/acmi.0.000870.v1.
+
+- Command lines for Unicycler genome assemblies are [here](09_unicycler_assemblies).
+- Command lines and configuration file for PhaME are phylogenetic analysis [here](04_phame).
+- Results of the PhaME phylogenetic analysis are [here](03_workdir/results)
+- Command lines and results of CheckM analysis are [here](07_checkm)
+- Command lines and results of QUAST analysis are [here](08_quast).
+- Command lines and results of ANI analysis with FastANI are [here](10_ANI).
+- Command lines for fixing start sites of circular plasmid sequences, in preparation for alignment, are [here](11_circlator).
+- Command lines and results of BLASTN searches of genome assemblies against plamid sequence are [here](12_plasmid_blast).
