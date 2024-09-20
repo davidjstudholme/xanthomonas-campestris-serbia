@@ -7,7 +7,7 @@ Tatjana Popović Milovanović, Shannon Greer, Renata Iličić, Aleksandra Jeluš
 
 Submitted to the Open Access journal _Access Microbiology_.
 
-A preprint of the manuscript is available here: https://doi.org/10.1099/acmi.0.000870.v1.
+A preprint of the manuscript is available here: https://doi.org/10.1099/acmi.0.000870.v2.
 
 - Command lines for obtaining the genome sequences from NCBI databases are [here](01_genome_assemblies).
 - Command lines for obtaining a reference genome sequence for PhaME are [here](02_ref).
